@@ -1,0 +1,62 @@
+<html doc>
+<head>
+    <title>Hunter S. Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<nav>
+        <ul>
+            <li><a href="C:\Users\hunte\OneDrive\Desktop\Objective_Assignment.personalized.HTML">Main Page</a></li>
+            <li><a href="cover-letter.html">Cover Letter</a></li>
+            <li><a href="career-goals.html">Career Goals</a></li>
+        </ul>
+    </nav><body>
+    <header>
+        <h1>Hunter Story Resume</h1>
+    </header>
+    <section id="experience">
+        <h2><em>Professional Experience</em></h2>
+        <article>
+            <h3>Store Manager</h3>
+            <p>O'Reilly Auto Parts | Various Locations | 2016 - 2024</p>
+            <ul>
+                <li>Managed daily operations and staff of 10+ employees</li>
+                <li>Increased sales by 15% through effective merchandising</li>
+                <li>Implemented training programs for new hires</li>
+            </ul>
+            <h3>Parts/Office Manager</h3>
+            <p>Pratt's Lawn and Garden | Rolla, Missouri | 2010 - 2016</p>
+            <ul>
+                <li>Managed parts inventory and customer service operations</li>
+            </ul>
+        </article>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <table>                
+            <caption>Education History</caption>
+            <thead>
+                <tr>
+                    <th>Saint James High School</th>
+                    <th>High School Degree</th>
+                    <th>2009-2013</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <footer>
+        <p>Contact: Hunter Allen Story | Dripping Springs, Texas 78620 | hunterallenstory@gmail.com | (573) 261-8536</p>
+    </footer>
+<script>
+    const dateDiv = document.getElementById("current-date");
+    const today = new Date();
+    dateDiv.textContent = "Resume last updated on: " + today.toLocaleDateString();
+
+    const yearSpan = document.getElementById("footer-year");
+    yearSpan.textContent = today.getFullYear();
+
+    console.log("Resume loaded successfully.");
+</script>
+</body>
+</html>
